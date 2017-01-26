@@ -9,6 +9,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css" />
 
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- "defer" on the script type tag allows the HTML, CSS files to load first -->
+    <script type="text/javascript" src="main.js" defer></script>
 </head>
 
 <body>
@@ -88,7 +90,7 @@
         </p>
         <hr>
 
-       
+
         <h2>Question 9:</h2>
         <p><span id="q9"></span>
         </p>
@@ -98,12 +100,12 @@
         <h2>Question 10:</h2>
         <p><span id="q10"></span>
         </p>
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         <hr>
         <hr>
         <h2 class="center">Advanced: </h2>
@@ -112,17 +114,33 @@
 
 
         <h2>Question A:</h2>
+        <form name="extra">
+          <p>Please enter your name:</p>
+          <input type="text" id = "username"><br>
+          <p>Please enter your age:<p/>
+          <input type="text" id = "age"><br>
+          <p>Please enter city you live in:</p>
+          <input type="text" id = "city">
+        </form>
+        <button id="answers">Answers</button>
         <p><span id="qa"></span>
         </p>
         <hr>
 
-       
+
         <h2>Question B:</h2>
         <p><span id="qb"></span>
         <hr>
 
 
         <h2>Question C:</h2>
+        <form name="question C">
+        <p>Enter length:</p>
+        <input type="text" id="length">
+        <p>Enter width:</p>
+        <input type="text" id="width">
+        </form>
+        <button id="areaResult">Area Result</button>
         <p><span id="qc"></span>
         </p>
         <hr>
@@ -140,11 +158,11 @@
         <p><span id="qe"></span></p>
         <hr>
 
-        
-        
+
+
 
     </main>
-
+   <!--<script type="text/javascript" src="main.js"></script>-->
 </body>
 
 </html>
